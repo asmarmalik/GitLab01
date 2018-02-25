@@ -1,0 +1,5 @@
+In everyday life, we often capture images under a hazed atmosphere which ruins the quality of the image and produces a blur all over it. 
+Fog Vision Enhancement System (FVES) proposes a solution to this problem. With FVE System, we can produce haze-free images. 
+The camera captures a hazy image which is transferred to the FVE System and stored in the repository. The system processes the image, observes the intensity of the haze and attempts to make the constrast better such that the image appears to be dehazed. 
+Once the image is haze-free it is again stored in the repository for future use. The system can process both grayscale and color (RGB) images. 
+The algorithm used to implement the system introduces Dark Channel Prior (DCP) followed by Weighted Least Square (WLS) and High Dynamic Range (HDR) based fog removal scheme.
